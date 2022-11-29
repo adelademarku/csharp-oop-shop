@@ -1,2 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+using CSharpShop;
+
+Prodotto primoProdotto = new Prodotto("libro", "bambini", 15, 4);
+
+
