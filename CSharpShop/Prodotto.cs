@@ -70,7 +70,10 @@ namespace CSharpShop
 
         }
 
-
+        public static float ToSingle(double value)
+        {
+            return (float)value;
+        }
 
         public void StampaProdotto()
         {
@@ -79,7 +82,7 @@ namespace CSharpShop
             Console.WriteLine("Descrizione: " + descrizione);
             Console.WriteLine("Prezzo: " + prezzo + "£ ");
             Console.WriteLine("Iva: " + iva + " %");
-            Console.WriteLine("Prezzo con iva: " + SetPrezzoIva + "£ ");
+            Console.WriteLine("Prezzo con iva: " + SetPrezzoIva() + "£ ");
         }
 
 
