@@ -5,3 +5,5 @@ using CSharpShop;
 Prodotto primoProdotto = new Prodotto("libro", "bambini", 15, 4);
 
 
+Console.WriteLine("Vediamo le informazione del prodotto: ");
+primoProdotto.StampaProdotto();
